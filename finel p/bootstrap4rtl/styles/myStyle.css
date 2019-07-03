@@ -1,0 +1,848 @@
+body 
+{
+    direction:rtl;
+    font-family: 'Rubik', sans-serif;
+    font-size:13pt;
+}
+
+#container {
+    width: 1366px;
+    margin: 0 auto;
+    position:relative;
+}
+
+.notActive {
+    cursor: not-allowed;}
+
+    h1 {
+    font-size:45pt;
+    font-weight:bold;
+}
+
+/*ניווט עליון*/
+.corentpage{
+    border-bottom: 4px solid #733439;
+    padding-bottom:20px;
+    font-weight:bold;
+}
+
+#logo {
+    display:block;
+    margin-right:608px;
+    margin-top:5px;    
+}
+
+#navhead{
+position:static;
+top:0;
+width:1366px;
+margin-right:53px;
+}
+
+#navhead ul {
+    list-style: none;
+}
+.page {
+    margin-top:20px;
+}
+    #navhead ul li {
+        display: inline-block;
+        color:#733439;
+        width:210px;
+        text-align:right;
+        }
+
+   #navhead ul li a {
+            display: block;
+            color: #733439;
+            text-decoration: none;
+            text-align: center;
+            width:210px;
+            height: 30px;
+            }
+
+  #navhead ul li a:hover {
+               color:#049DBF;
+               text-decoration-line:underline;}
+                           
+
+  #navhead ul li a:focus { border:2px dashed #049DBF;}
+               
+  #navhead ul li ul {
+            display: none;
+            position: absolute;
+            padding:0;
+             }
+  #navhead ul li:hover ul {
+           display: block;
+           width:210px;
+           background-color:white;
+           }
+
+/*דף נחיטה*/
+  baner{
+      width:1366px;
+      height:600px;
+      display:inline-block;
+      background-image:url(../images/B2.jpg);
+      background-size:1366px 600px;
+      background-position:right;
+      background-repeat:no-repeat; 
+  }
+  
+  baner div {
+      position:relative;
+      margin-top:80px;
+      margin-right:750px;
+      background-color:white;
+      width:440px;
+      height:440px;
+  }
+
+  baner P{
+      margin:10px;
+      display:block;
+      text-align:center;
+      color:#733439;
+      } 
+  
+  baner p:nth-child(1){
+       font-size:45pt;
+       } 
+   baner p:nth-child(2){
+      font-size:32pt;
+      padding-right:10px;
+      padding-left:10px;
+      } 
+
+   baner img {
+       position:absolute;
+       right:160px;
+	   top:340px;
+       }
+
+   /*פעילויות*/
+
+   article{
+       position:absolute;
+       top:auto;
+       margin-top:40px;
+     }
+
+h2 {
+    font-size: 32pt;
+    font-weight:bold;
+}
+
+/*ריבוע גדול- סוג פעילות*/
+.bigblok {
+    position:absolute;
+       width:664px;
+       height:450px;
+       display:inline-block;
+      }
+
+    
+             
+
+/*כותרת סוג פעילות*/ 
+.bigblok h2
+{
+ position:absolute;
+       width:229px;
+       height:113px;
+       padding:20px;
+       color:black;
+   }
+
+/*תיאור פעילות וקישור*/
+.bigblok_text {
+position:relative;
+display:inline-block;
+  width:664px;
+  height:450px;
+  /*display:none;*/
+  }
+
+.bigblok:hover .bigblok_text   {
+    position:absolute;
+    display:block !important;
+}
+
+.bigblok:hover .activityimg {display:none;
+}
+
+
+.bigblok p{
+position:absolute;
+display:inline;
+width:664px;
+height:320px;
+font-size:32pt;
+margin-top:130px;
+padding-right:20px;
+ }
+
+.bigblok a{
+    position:absolute;
+    font-size:20px;
+       margin-top:400px;
+       margin-right:520px;
+       background-color:white;
+      }
+
+.activityimg {
+    width: 664px;
+    height: 450px;
+  }
+
+
+   /*יצירה*/
+#art {
+    background-color: #ADD4D9;
+}
+
+   #art h2 {background-color:#ADD4D9;}
+
+   #art .activityimg {
+       background-image:url(../images/home/create.jpg);
+       background-size:664px 450px;
+       background-repeat:no-repeat;
+   }
+
+   /*מרץ*/
+   #active {
+       background-color:#F2C166;
+       margin-right:694px;
+         }
+   #active h2 {background-color:#F2C166;}
+
+   #active .activityimg {
+       background-image:url(../images/home/activity.JPG);
+       background-size:664px 450px;
+       background-repeat:no-repeat;
+       }
+
+   /*שיח*/
+   #speak {
+       background-color:#C3D973;
+       margin-top:470px;
+          }
+   #speak h2 {background-color:#C3D973}
+
+   #speak .activityimg {
+        background-image:url(../images/home/comunicqate.jpg);
+       background-size:664px 450px;
+       background-repeat:no-repeat;
+   }
+
+   /*חשיבה*/
+   #think {
+background-color:#049DBF;
+margin-right:694px;
+margin-top:470px;
+   }
+    #think h2 {background-color:#049DBF}
+
+   #think .activityimg {
+        background-image:url(../images/home/think.jpeg);
+       background-size:664px 450px;
+       background-repeat:no-repeat;
+   }
+
+   /*מומלצים*/
+  aside{
+      position:static;
+      margin-top:960px;
+            
+  }
+  aside h2 {
+      position:absolute;
+      width:545px;
+      height:270px;
+      background-color:#733439;
+      color:white;
+      padding-top:45px;
+     text-align:center;
+     margin:0px;
+     
+    }
+
+  /*קוביות כללי*/
+  .reco {
+      position:absolute;
+      width:270px;
+      height:270px;  
+      font-size:32pt;
+     }
+
+  .reco p {
+     position:absolute;
+     width:270px;
+      height:270px;
+      padding-top:45px;
+      text-align:center;
+    }
+
+  .reco:nth-child(2){background-color:#ADD4D9;
+                    margin-right:550px;
+  }
+  .reco:nth-child(3){background-color:#F2C166;
+                     margin-right:825px; }
+.reco:nth-child(4){background-color:#C3D973;
+                    margin-right:1100px;
+}
+  .reco:nth-child(5){background-color:#ADD4D9;
+                     margin-top:275px;
+  }
+  
+  .reco:nth-child(6){background-color:#F2C166;
+                     margin-right:275px;
+                     margin-top:275px;
+  }
+  
+  .reco:nth-child(7){background-color:#C3D973;
+                     margin-right:550px;
+                     margin-top:275px;
+  }
+  .reco:nth-child(8){background-color:#733439;
+                     margin-right:825px;
+                     margin-top:275px;
+  }
+ .reco:nth-child(8) p{color:white;}
+  .reco:nth-child(9){background-color:#049DBF;
+                      margin-right:1100px;
+                      margin-top:275px;
+  }
+
+  /*תמונות מומצלצים*/
+  .reco_imege {
+    position:absolute;
+    width:270px;
+    height:270px;
+    }
+
+  .reco:hover .reco_imege {display:none;}
+
+#reco_group-drow {
+       background-image:url(../images/home/reco/group-drow.jpg);
+       background-size:270px 270px;
+    background-repeat:no-repeat;
+  }
+#reco_asosiation {
+    background-image:url(../images/home/reco/asosiation.jpeg);
+    background-size:270px 270px;
+    background-repeat:no-repeat;
+}
+#reco_three_stiks{background-image:url(../images/home/reco/three_stiks.jpg);
+             background-size:270px 270px;
+    background-repeat:no-repeat;
+}
+#reco_wish_wall{background-image:url(../images/home/reco/wish-wall.jpeg);
+           background-size:270px 270px;
+    background-repeat:no-repeat;
+}
+#reco_colaje{background-image:url(../images/home/reco/colaje.jpg);
+    background-size:270px 270px;
+    background-repeat:no-repeat;
+}
+#reco_roap{background-image:url(../images/home/reco/roap.jpg);
+      background-size:270px 270px;
+    background-repeat:no-repeat;
+}
+#reco_catch{background-image:url(../images/home/reco/catch.jpg);
+       background-size:270px 270px;
+    background-repeat:no-repeat;
+}
+#reco_drow{background-image:url(../images/home/reco/drow.jpeg);
+      background-size:270px 270px;
+    background-repeat:no-repeat;
+}
+
+/*קישורים לפעילויות*/
+.reco a {position:absolute;
+         font-size:13pt;
+         top:200px;
+         margin-right:125px;
+}
+
+
+/*Footer*/
+/*#navfooter {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2c166;
+    width: 1366px;
+    height: 60px;
+    margin-top: 1610px;
+    padding-top: 15px;
+}*/
+
+#navfooter {
+    
+    background-color: #f2c166;
+    width: 1366px;
+    height: 60px;
+    margin-top: 1610px;
+    padding-top: 15px;
+}
+
+    #navfooter ul li {
+        display: inline;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+        #navfooter ul li a {
+            color: black;
+        }
+
+/*פוטר לדף, עקרונות נגישות*/
+
+#navfooter_accessibility {
+    position: absolute;
+    top: 1100px;
+    background-color: #f2c166;
+    width: 1366px;
+    height: 60px;
+    margin-top: 1610px;
+    padding-top: 15px;
+}
+#navfooter_accessibility ul li {
+    display: inline;
+    margin-right: 40px;
+    text-align: center;
+}
+
+    #navfooter_accessibility ul li a {
+        color: black;
+    }
+
+/*פוטר לדף, כותל*/
+
+#navfooter_kotel {
+    position: absolute;
+    top: 950px;
+    background-color: #f2c166;
+    width: 1366px;
+    height: 60px;
+    margin-top: 1610px;
+    padding-top: 15px;
+}
+
+    #navfooter_kotel ul li {
+        display: inline;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+        #navfooter_kotel ul li a {
+            color: black;
+        }
+
+
+/*דפים פנימיים*/
+
+/*באנר*/
+.baner_inerpage{
+display: inline-block;
+    width: 1366px;
+    height: 550px;
+    background-size: 1366px 600px;
+    background-repeat: no-repeat;
+}
+
+.baner_inerpage h1 {
+width: 400px;
+height: 150px;
+font-size:50pt;
+display: block;
+        margin-right: 90px;
+        margin-top: 360px;
+        color: #733439;
+        font-weight:bold;
+        text-align: center;
+        background-color: white;
+        padding-top: 25px;
+}
+
+/*תפריט פירורי לחם*/
+.bredcrumbs ol li {
+    margin-top: 20px;
+    display: inline-block;
+     }
+    .bredcrumbs ol li::after {
+content: ">";
+    }
+    .bredcrumbs ol li:last-child::after {
+        content: "";
+    }
+
+    .bredcrumbs ol li a {
+         color: #733439;
+    }
+
+/*קווים חוצצים*/
+.green_line { 
+        height: 6px; 
+            width: 1050px; 
+      margin-right: 0px; 
+          border: 3px solid #c3d973; 
+    margin-top: 20px; 
+        margin-bottom: 20px; 
+
+} 
+
+.light_blue_line { 
+        width: 1050px; 
+    margin-right: 0px; 
+        border: 3px solid #add4d9; 
+    margin-top: 20px; 
+       margin-bottom: 20px; 
+     } 
+
+.orange_line { 
+    width: 1050px; 
+        margin-right: 0px; 
+    border: 3px solid #f2c166; 
+        margin-top: 20px; 
+    margin-bottom: 20px; 
+} 
+
+.blue_line { 
+        height: 6px; 
+    width: 1050px; 
+        margin-right: 0px; 
+    border: 3px solid #049dbf; 
+        margin-top: 20px; 
+    margin-bottom: 20px; 
+} 
+  
+h3 { 
+        font-size: 20pt; 
+} 
+
+/*דף יצירה*/
+#baner_Arts {
+background-image: url(../images/home/create.jpg);
+background-position: top right;
+}
+
+/*ריבוע גדול- סוג פעילות*/
+.bigblok2 {
+    position:absolute;
+       width:664px;
+       height:450px;
+       display:inline-block;
+             }
+
+/*מאפיינים גלוי*/
+.baisic_descrip{
+    position:absolute;
+    top:auto;
+    display:inline-block;
+    width:220px;
+    height:450px;}
+
+/*כותרת סוג פעילות*/ 
+.baisic_descrip h2{
+ position:absolute;
+ display:inline-block;
+       width:220px;
+       padding:20px;
+       color:black;
+   }
+
+/*רשימת מאפייני פעילות*/
+.baisic_descrip ul { position:relative;
+                     top:170px;
+                     width:220px;
+                    padding-right:20px;
+                   }
+
+.baisic_descrip ul li {
+    list-style-type:none;
+    padding-bottom:20px;
+    font-size:16px; 
+}
+
+/*תיאור פעילות וקישור*/
+.extra_description {
+position:relative;
+right:220px;
+padding-top:120px;
+padding-right:50px;
+display:inline-block;
+  width:444px;
+  height:450px;
+  font-size:32pt;
+  display:none;
+  }
+
+.bigblok2:hover .extra_description {
+    position: absolute;
+    display: block !important;
+}
+.bigblok2:focus .extra_description {
+    position: absolute;
+    display: block !important;
+}
+    .extra_description p{
+position:absolute;
+display:inline;
+width:220px;
+font-size:32pt;
+padding-right:50px;
+ }
+
+.bigblok2 a{
+    position:relative;
+    font-size:20px;
+    top:400px;
+    right:480px;
+    display:none;
+    background-color:white;
+      }
+
+.bigblok2:hover a {
+    display: inline-block;
+}
+.bigblok2:focus {
+    display: inline-block;
+}
+    /*עמוד יצירה- כותל*/
+    #Art_kotel{
+    background-image:url(../images/home/reco/wish-wall.jpeg);
+    background-size:664px 450px;
+    background-repeat: no-repeat;
+}
+
+#Art_kotel .baisic_descrip { background-color:#ADD4D9}
+#Art_kotel .extra_description { background-color:#ADD4D9}
+
+/*עמוד יצירה קולאז*/
+#Art_colaje{background-image:url(../images/home/reco/colaje.jpg);
+    background-size:664px 450px;
+    background-repeat: no-repeat;
+    margin-right:694px;
+}
+
+#dounload_logo {
+    position:absolute;
+    top: 50px;
+    right: 1100px;
+  
+}
+
+#Art_colaje .baisic_descrip {
+    background-color: #F2C166
+}
+#Art_colaje .extra_description { background-color:#F2C166}
+
+/*עמוד יצירה- ציור קבוצתי*/
+#Art_group_drow{
+background-image:url(../images/home/reco/group-drow.jpg);
+    background-size:664px 450px;
+    background-repeat: no-repeat;
+   margin-top:480px;
+    }
+#Art_group_drow .baisic_descrip { background-color:#C3D973}
+#Art_group_drow .extra_description { background-color:#C3D973}
+
+/*קיפולי נייר*/
+#Art_origami{
+background-image:url(../images/home/reco/origami.jpg);
+    background-size:664px 450px;
+    background-repeat: no-repeat;
+   margin-top:480px;
+   margin-right:694px;
+    }
+#Art_origami .baisic_descrip { background-color:#049DBF}
+#Art_origami .extra_description { background-color:#049DBF}
+
+/*פאזל*/
+#Art_puzzel{
+background-image:url(../images/home/reco/puzzel.jpg);
+    background-size:664px 450px;
+    background-repeat: no-repeat;
+   margin-top:960px;
+    }
+#Art_puzzel .baisic_descrip { background-color:#ADD4D9}
+#Art_puzzel .extra_description { background-color:#ADD4D9}
+
+/*העתקת אובייקט*/
+#Art_drow{
+background-image:url(../images/home/reco/drow.jpeg);
+    background-size:664px 450px;
+    background-repeat: no-repeat;
+   margin-top:960px;
+   margin-right:694px;
+    }
+#Art_drow .baisic_descrip { background-color:#F2C166}
+#Art_drow .extra_description { background-color:#F2C166}
+
+
+
+ /*דף דגשי נגישות*/ 
+ #baner_Accessibility {
+    background-image: url(../images/home/accessibility.jpeg);
+    background-size: 1366px 600px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+     #baner_Accessibility h1 {width: 750px;}
+
+     #open_line { margin-top: 20px;
+                  font-weight: bold;
+                  font-size: 16pt;}
+
+#page_accessibility img { margin-right:1px;
+                          display: inline;
+                          margin-bottom:15px;   }
+
+#page_accessibility #positive {
+    margin-bottom: 25px;}
+
+#page_accessibility h2 {
+    margin-right: 5px;
+    display:inline;
+}
+
+/*iconim*/
+#logos p {
+        display: inline;
+        margin-right: 40px;
+          }
+
+/*דף כותל*/
+#baner_kotel{
+background-image: url(../images/home/reco/wish-wall.jpeg);
+background-position: top right;
+}
+
+/*קולאז*/
+
+#baner_collage {
+    background-image: url(../images/collage.jpeg);
+    background-size: 1366px 550px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/*אודות*/
+#about_us h1 {font-size: 45pt;}
+   
+#about_us h2 {
+    margin-top:15px;
+}
+
+#about_us img {
+    display: inline;
+}
+
+#adiel img {
+    position: absolute;
+    top: 440px;
+}
+#sarit img {
+    position: absolute;
+    margin-right: 300px;
+    top: 440px;
+}
+    #rotem img {
+    position: absolute;
+    margin-right: 600px;
+    top: 440px;
+}
+#adiel p {
+        display:none;
+}
+
+#adiel:hover p {
+    position: absolute;
+    top: 650px;
+    margin: 0px;
+    width: 240px;
+    height: 30px;
+    font-size: 16pt;
+    color: black;
+    background-color: #c2d872;
+    display: inline;
+    text-align:center;
+    padding-left:10px;
+}
+
+
+#sarit p {
+        display: none;
+}
+
+#sarit:hover p {
+    position: absolute;
+    top: 650px;
+    right: 300px;
+    margin: 0px;
+    width: 240px;
+    height: 30px;
+    font-size: 16pt;
+    color: black;
+    background-color: #add4d8;
+    display: inline;
+    text-align: center;
+}
+
+#rotem p {
+    display: none;
+}
+
+#rotem:hover p {
+    position: absolute;
+    top: 650px;
+    right: 600px;
+    margin: 0px;
+    width: 240px;
+    height: 30px;
+    font-size: 16pt;
+    color: black;
+    background-color: #f2c165;
+    display: inline;
+    text-align: center;
+}
+
+#us{
+    position:absolute;
+    top: 720px;
+}
+
+#pages {
+    position: absolute;
+    top: 970px;
+}
+
+#about_us ul li a {
+    color: black;
+    text-decoration: underline;
+}
+
+#logoHIT {
+    position: absolute;
+    right:360px;
+    top: 1300px;
+}
+
+
+label {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*מפת אתר*/
+#web_map img {
+    position: absolute;
+    top: 400px;
+}
+#web_map ul li a {
+    color: black;
+    text-decoration: underline;
+}

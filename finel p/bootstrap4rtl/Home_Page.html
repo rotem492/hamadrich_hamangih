@@ -1,0 +1,181 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>המדריך המנגיש- דף בית</title>
+    <link rel="icon" type="image/ico" href="images/Logo.png" />
+    <meta name="description" content="אתר המציע מגוון פעולות מונגשות למוגבלויות ומידע על מוגבלויות והנחיות להנגשה." />
+    <meta name="keywords" content="פעילויות למוגבלויות, פעולות, פעולות קבוצתיות, עקרונות לנגשה, עקרונות להנגשת פעולה, מידע על מוגבלויות, מוגבלויות," />
+    <meta name="author" content="עדיאל בנימין, שרית זחרוב, רותם הלימי" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!--פונט-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/tab_nav.js"></script>
+
+</head>
+<body onload="tab_nav()">
+    <div id="container" class="container">
+
+        <header>
+            <nav class="var" id="navhead">
+                <a href="Home_Page.html" id="logo"> <img src="images/Logo.png" alt="דף בית-המדריך המנגיש" width="150" height="50" /> </a>
+                <ul>
+                    <li class="page">
+                        <a class="corentpage" href="Home_Page.html#art">פעילויות</a>
+                        <ul>
+                            <li><a href="Arts_Page.html">יצירה</a></li>
+                            <li><a class="notActive" href="#">חשיבה</a></li>
+                            <li><a class="notActive" href="#">שיח</a></li>
+                            <li><a class="notActive" href="#">נמרץ</a></li>
+                        </ul>
+                    </li>
+                    <li class="page"><a class="notActive" href="#">אפיון מוגבלויות</a></li>
+                    <li class="page">
+                        <a href="‏‏‏‏PrinciplesOfAccessibility_Page.html">עקרונות מנחים</a>
+                    </li>
+                    <li class="page"><a href="About_Page.html">אודות</a></li>
+                    <li class="page"><a href="ContectUs_Page.html">צור קשר</a></li>
+                    <li class="page"><a href="WebMap.html">מפת האתר</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <baner alt="באנר">
+            <div aria-labelledby="home">
+                <p>להדריך ולפעול כל אחד יכול!</p>
+                <p id="home">פעילויות מונגשות למגוון מוגבלויות</p="home">
+                <a href="#art"><img src="images/home/V-02.png" alt="חץ למטה לפעילויות" width="150" height="50" /></a>
+            </div>
+        </baner>
+
+        <article>
+
+            <!--פעילויות-->
+            <section class="bigblok" id="art" aria-labelle="יצירה">
+                <h2>יצירה</h2>
+                <div class="activityimg" aria-labelledby="art_description"></div>
+                <div class="bigblok_text" aria-labelledby="art_description">
+                    <p id="art_description">פעילויות הנעזרות בחומרי יצירה כדי לחזק את העבודה הקבוצתית עם הייחודיות של כל חניך.</p>
+                    <a href="Arts_Page.html">לפעילויות ></a>
+                </div>
+            </section>
+
+            <section class="bigblok" id="active">
+                <h2>נמרץ</h2>
+                <div class="activityimg"></div>
+                <div class="bigblok_text">
+                    <p>פעילויות קבוצתיות שיסייעו לכם להכניס אנרגיה לפעילות, ויחזקו את שיתוף הפעולה.</p>
+                    <a class="notActive" href="">לפעילויות ></a>
+                </div>
+            </section>
+
+            <section class="bigblok" id="speak">
+                <h2>שיח</h2>
+                <div class="activityimg"></div>
+                <div class="bigblok_text">
+                    <p>פעילויות המעודדות שיח ושיתוף עמדות, חוויות ומחשבות בין החניכים.</p>
+                    <a class="notActive" href="">לפעילויות ></a>
+                </div>
+            </section>
+
+            <section class="bigblok" id="think">
+                <h2>חשיבה</h2>
+                <div class="activityimg"></div>
+                <div class="bigblok_text">
+                    <p>פעילויות שנועדו להפעיל את סוגי החשיבה השונים אצל הפעילים.</p>
+                    <a class="notActive" href="">לפעילויות ></a>
+                </div>
+            </section>
+
+
+            <aside>
+                <h2>מומלצים</h2>
+                <div class="reco">
+                    <p>ציור קבוצתי</p>
+                    <a class="notActive" href="">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_group-drow"></div>
+                </div>
+
+
+                <div class="reco">
+                    <p>שמש  <br /> אסוציאציות</p>
+                    <a class="notActive" href="">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_asosiation"></div>
+                </div>
+
+
+                <div class="reco">
+                    <p>שלוש <br />מקלות</p>
+                    <a class="notActive" href="">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_three_stiks"></div>
+                </div>
+
+
+                <div class="reco">
+                    <p>כותל</p>
+                    <a href="kotel_page.html">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_wish_wall"></div>
+                </div>
+
+
+                <div class="reco">
+                    <p>קולאז'</p>
+                    <a href="">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_colaje"></div>
+                </div>
+
+
+                <div class="reco">
+                    <p>משיכה <br /> בחבל</p>
+                    <a class="notActive" href="">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_roap"></div>
+                </div>
+
+
+                <div class="reco">
+                    <p>הדוב <br /> הגדול</p>
+                    <a class="notActive" href="">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_catch"></div>
+                </div>
+
+
+                <div class="reco">
+                    <p>העתקה <br /> מתמונה</p>
+                    <a class="notActive" href="">לפעילות המלאה ></a>
+                    <div class="reco_imege" id="reco_drow"></div>
+                </div>
+
+            </aside>
+
+        </article>
+
+        <footer>
+            <nav id="navfooter">
+                <ul>
+                    <li> <a href="Home_Page.html">פעילויות</a> </li>
+                    <li><a href="#">אפיון מוגבלויות</a></li>
+                    <li> <a href="‏‏‏‏PrinciplesOfAccessibility_Page.html">עקרונות מנחים</a></li>
+                    <li><a href="About_Page.html">אודות</a></li>
+                    <li><a href="ContectUs_Page.html">צור קשר</a></li>
+                    <li><a href="WebMap.html">מפת האתר</a></li>
+                </ul>
+            </nav>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
